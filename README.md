@@ -1,6 +1,6 @@
 # FIX Message Parser & Execution Break Simulator
 
-![FIX Parser CI](https://github.com/YOUR_USERNAME/fix-message-parser-execution-break-simulator/actions/workflows/ci.yml/badge.svg)
+![FIX Parser CI](https://github.com/jennasilvera/fix-message-parser-execution-break-simulator/actions/workflows/ci.yml/badge.svg)
 
 A recruiter-ready trading operations portfolio project that parses simulated FIX execution-report messages, reconciles them against internal order records and broker drop-copy-style records, and generates exception reports for trade support investigation.
 
