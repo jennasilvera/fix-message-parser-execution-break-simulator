@@ -1,0 +1,15 @@
+cl_ord_id,expected_ord_status,expected_cum_qty,expected_leaves_qty,expected_avg_px,investigation_note
+ORD-1001,Filled,1000,0,190.256,Fully filled with two executions
+ORD-1002,Filled,500,0,420.05,Clean fill
+ORD-1003,Filled,200,0,181.75,Quantity mismatch expected versus broker
+ORD-1004,Rejected,0,150,0.0,Rejected by broker
+ORD-1005,Filled,300,0,180.45,Missing broker drop-copy row
+ORD-1006,Filled,1000,0,501.0,Price mismatch versus broker
+ORD-1007,Filled,600,0,205.31,Broker reports opposite side
+ORD-1008,Filled,400,0,190.0,Expected filled but latest FIX status is still new/stale
+ORD-1009,Filled,250,0,130.24,Duplicate ExecID in FIX stream
+ORD-1010,Filled,120,0,475.09,Clean fill
+ORD-1011,Filled,350,0,250.0,Missing execution report
+ORD-1012,Filled,100,0,175.01,FIX/broker symbol differs from internal symbol
+ORD-1013,Filled,800,0,160.01,Order-status mismatch: partial fill versus expected filled
+ORD-1014,PartiallyFilled,700,300,33.01,CumQty + LeavesQty inconsistency in FIX report

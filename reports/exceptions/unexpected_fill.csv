@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,symbol,side,last_qty,last_px,sending_time,exception_reason
+ORD-9999,E-9999-F1,SPY,BUY,50,550.1,2026-06-14 10:40:03,Fill reported for ClOrdID not present in internal order records

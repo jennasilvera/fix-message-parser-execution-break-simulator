@@ -1,0 +1,2 @@
+cl_ord_id,symbol,side,order_qty,sent_ts,exception_reason
+ORD-1011,CRM,BUY,350,2026-06-14 10:15:00,Internal order has no FIX execution report

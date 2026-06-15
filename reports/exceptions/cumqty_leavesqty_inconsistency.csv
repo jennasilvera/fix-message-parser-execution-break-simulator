@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,symbol,fix_order_qty,internal_order_qty,cum_qty,leaves_qty,cum_plus_leaves,exception_reason
+ORD-1014,E-1014-P1,INTC,1000,1000,700,400,1100,CumQty + LeavesQty does not equal OrderQty

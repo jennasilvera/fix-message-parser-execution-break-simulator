@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,internal_symbol,fix_symbol,broker_symbol,exception_reason
+ORD-1012,E-1012-F1,GOOG,GOOGL,GOOGL,"Symbol differs across internal order, FIX report, or broker drop copy"

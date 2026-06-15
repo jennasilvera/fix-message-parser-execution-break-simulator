@@ -1,0 +1,3 @@
+cl_ord_id,expected_ord_status,latest_fix_ord_status,expected_cum_qty,latest_fix_cum_qty,expected_leaves_qty,latest_fix_leaves_qty,investigation_note,exception_reason
+ORD-1008,Filled,New,400,0,0,400,Expected filled but latest FIX status is still new/stale,Latest FIX order status does not match expected order-state table
+ORD-1013,Filled,PartiallyFilled,800,300,0,500,Order-status mismatch: partial fill versus expected filled,Latest FIX order status does not match expected order-state table

@@ -1,0 +1,4 @@
+cl_ord_id,symbol,side,order_qty,cum_qty,leaves_qty,ord_status_name,latest_fix_time,run_as_of,age_minutes,exception_reason
+ORD-1008,IBM,BUY,400,0,400,New,2026-06-14 10:00:01,2026-06-14 16:00:00,360.0,Order remains open for more than 60 minutes
+ORD-1013,AMD,SELL,800,300,500,PartiallyFilled,2026-06-14 10:25:07,2026-06-14 16:00:00,334.9,Order remains open for more than 60 minutes
+ORD-1014,INTC,BUY,1000,700,400,PartiallyFilled,2026-06-14 10:30:07,2026-06-14 16:00:00,329.9,Order remains open for more than 60 minutes

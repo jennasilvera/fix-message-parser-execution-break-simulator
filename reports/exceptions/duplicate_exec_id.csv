@@ -1,0 +1,2 @@
+exec_id,duplicate_count,cl_ord_ids,source_lines,exception_reason
+E-DUP-900,2,"ORD-1009, ORD-1009","11, 12",Same ExecID appears multiple times in the FIX execution-report stream

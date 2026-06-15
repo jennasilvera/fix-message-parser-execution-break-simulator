@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,symbol,fix_last_px,broker_px,abs_price_diff,exception_reason
+ORD-1006,E-1006-F1,META,501.0,500.0,1.0,FIX LastPx differs from broker drop-copy price by more than one cent

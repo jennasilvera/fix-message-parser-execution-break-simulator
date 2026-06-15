@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,internal_side,fix_side,broker_side,symbol,exception_reason
+ORD-1007,E-1007-F1,SELL,SELL,BUY,JPM,"Side differs across internal order, FIX report, or broker drop copy"

@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,symbol,fix_side,last_qty,last_px,sending_time,exception_reason
+ORD-1005,E-1005-F1,AMZN,SELL,300,180.45,2026-06-14 09:40:08,FIX fill has no matching broker drop-copy row by ExecID

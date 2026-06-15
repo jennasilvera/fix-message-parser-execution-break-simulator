@@ -1,0 +1,2 @@
+cl_ord_id,exec_id,symbol,fix_last_qty,broker_executed_qty,exception_reason
+ORD-1003,E-1003-F1,TSLA,200,180,FIX LastQty differs from broker drop-copy executed quantity

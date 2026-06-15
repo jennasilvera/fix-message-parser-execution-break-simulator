@@ -1,0 +1,2 @@
+cl_ord_id,order_id,exec_id,symbol,side,order_qty,ord_status_name,exec_type_name,text,exception_reason
+ORD-1004,B-1004,E-1004-R1,NVDA,BUY,150,Rejected,Rejected,Limit price outside broker risk band,Broker rejected the order
