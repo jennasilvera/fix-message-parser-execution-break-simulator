@@ -182,3 +182,12 @@ GitHub Actions runs tests on Python 3.10, 3.11, and 3.12 and also runs the end-t
 ## Disclaimer
 
 This repository is a portfolio simulation. It does not connect to a live FIX session, broker, OMS, EMS, execution venue, hedge fund system, or trading database.
+
+---
+
+## Sample Reconciliation Output
+
+Running the pipeline produces CSV exception reports under:
+
+```text
+reports/exceptions/
