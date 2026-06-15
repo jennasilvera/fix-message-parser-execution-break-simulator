@@ -167,19 +167,6 @@ GitHub Actions runs tests on Python 3.10, 3.11, and 3.12 and also runs the end-t
 |---|---:|---|---|
 | E-DUP-900 | 2 | ORD-1009, ORD-1009 | Same ExecID appears multiple times in the FIX execution-report stream |
 
-## How I Would Explain This in an Interview
-
-I built a simulated trade-support workflow that parses FIX-style execution reports, normalizes important tags like `ClOrdID`, `OrderID`, `ExecID`, `ExecType`, `OrdStatus`, `LastQty`, `LeavesQty`, `CumQty`, and `AvgPx`, and reconciles the parsed messages against internal order records, broker drop-copy records, and expected order states.
-
-The goal was to demonstrate how a trading operations or production support analyst investigates execution breaks: missing acknowledgements, rejected orders, stale open orders, broker mismatches, duplicate execution IDs, unexpected fills, and invalid order-state math. I intentionally used simulated data and lightweight tools—Python, pandas, SQLite, SQL, pytest, and GitHub Actions—so the logic is transparent and easy to validate.
-
-## Truthful Resume Bullets
-
-- Built a simulated FIX execution-report parser in Python to normalize tag-value messages into structured CSV records for order lifecycle analysis.
-- Designed SQLite reconciliation controls to compare internal orders, parsed FIX reports, broker drop-copy-style data, and expected order states.
-- Implemented exception detection for missing execution reports, missing broker drop copies, rejects, stale open orders, field mismatches, duplicate ExecIDs, unexpected fills, and invalid `CumQty` / `LeavesQty` states.
-- Created pytest coverage and GitHub Actions CI to validate parser behavior and run an end-to-end reconciliation pipeline.
-- Wrote operational runbook documentation explaining investigation steps, severity classification, and escalation logic for simulated trade-support breaks.
 
 ## Suggested Commit Sequence
 
