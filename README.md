@@ -191,3 +191,11 @@ Running the pipeline produces CSV exception reports under:
 
 ```text
 reports/exceptions/
+## Documentation
+
+Additional project documentation:
+
+- [Project Scope](PROJECT_SCOPE.md)
+- [Operational Runbook](RUNBOOK.md)
+- [Data Dictionary](docs/DATA_DICTIONARY.md)
+- [Sample Trade Support Investigation](docs/SAMPLE_INVESTIGATION.md)
